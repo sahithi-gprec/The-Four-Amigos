@@ -120,7 +120,7 @@ class Game(object):
         screen.fill(BLACK)
         if self.game_over:
             if self.about:
-                self.display_message(screen,"It is an arcade Game")
+                self.display_message(screen,"It is a classic pac man game of level1.")
                 #"a maze containing various dots,\n"
                 #known as Pac-Dots, and four ghosts.\n"
                 #"The four ghosts roam the maze, trying to kill Pac-Man.\n"
