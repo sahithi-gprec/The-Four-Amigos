@@ -8,7 +8,6 @@ def main():
     pygame.init()
     # Set the width and height of the screen [width, height]
     screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
-    # Set the current window caption
     pygame.display.set_caption("PACMAN")
     #Loop until the user clicks the close button.
     done = False
