@@ -137,7 +137,6 @@ class Animation(object):
             self.clock += 1
 
         if self.clock in l:
-            # Increase index
             self.index += 1
             if self.index == len(self.image_list):
                 self.index = 0
